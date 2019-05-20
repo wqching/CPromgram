@@ -7,10 +7,18 @@
 //
 
 #include <stdio.h>
+#include "array.c"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
-    printf("Just for testing\n");
+    for (int indexOne = 0; indexOne < 3; indexOne++) {
+        for (int indexTwo = 0; indexTwo < 3; indexTwo++) {
+            
+                printf("%d  ", arrayDemo[indexOne][indexTwo]);
+            
+            while (indexTwo == 2) {
+                printf("\n");
+            }
+        }
+    }
     return 0;
 }
