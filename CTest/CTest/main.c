@@ -15,10 +15,8 @@ int main(int argc, const char * argv[]) {
             
                 printf("%d  ", arrayDemo[indexOne][indexTwo]);
             
-            while (indexTwo == 2) {
-                printf("\n");
-            }
         }
+        printf("\n");
     }
     return 0;
 }
