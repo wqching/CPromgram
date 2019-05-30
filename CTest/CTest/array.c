@@ -53,6 +53,8 @@ int arrayConvertTest()
         printf("\n");
     }
     
+    printf("数组的首地址 %o \n", (int)arrayConvert);
+    printf("数组的首地址 %o \n", (int)arrayModel);
     
     return 0;
 }
